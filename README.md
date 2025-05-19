@@ -1,6 +1,6 @@
 # EHR Resources Viewer
 
-A modern web application for viewing and managing Electronic Health Record (EHR) resources using Next.js, TypeScript, and shadcn/ui.
+A web application for viewing and managing Electronic Health Record (EHR) resources using Next.js, TypeScript, and shadcn/ui.
 
 ## Features
 
@@ -11,8 +11,6 @@ A modern web application for viewing and managing Electronic Health Record (EHR)
 - Responsive design with mobile view
   - Optimized table view for mobile devices
   - Touch-friendly controls and interactions
-  - Horizontal scrolling for table on small screens
-  - Stacked pagination controls on mobile
 
 ## Tech Stack
 
@@ -89,6 +87,7 @@ The project uses:
 - Automatic redirect from root to resources page
 
 ## Deployment
+The project has been deployed on https://pact-task.vercel.app/
 
 ### Deploying to Vercel
 
@@ -111,9 +110,4 @@ The project uses:
 
 Your application will be deployed and you'll get a URL like `your-app.vercel.app`
 
-### Automatic Deployments
-
-- Every push to the main branch will trigger a new deployment
-- Preview deployments are created for pull requests
-- You can configure custom domains in the Vercel dashboard
 
